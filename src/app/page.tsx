@@ -14,7 +14,7 @@ import Salvation from "@/components/Salvation";
 import Merch from "@/components/Merch";
 import StayConnected from "@/components/StayConnected";
 import Footer from "@/components/Footer";
-// import ChatWidget from "@/components/ChatWidget";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
         <StayConnected />
       </main>
       <Footer />
-      {/* <ChatWidget /> */}
+      <ChatWidget />
     </>
   );
 }
