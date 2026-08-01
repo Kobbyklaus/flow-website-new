@@ -196,6 +196,48 @@ export default function WatchExperience() {
             })}
           </div>
 
+          {/* How-to help */}
+          <details className="mt-6 group glass rounded-xl border border-white/10 overflow-hidden">
+            <summary className="flex items-center gap-3 cursor-pointer list-none px-4 py-3.5 select-none hover:bg-white/[0.04] transition-colors">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent/20 text-accent text-sm font-bold">?</span>
+              <span className="text-sm font-semibold">How to listen in your language</span>
+              <svg
+                className="ml-auto w-4 h-4 text-white/40 transition-transform group-open:rotate-180"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div className="px-4 pb-4 pt-1 text-sm text-white/60 space-y-3 border-t border-white/5">
+              <ol className="space-y-2 mt-3">
+                {[
+                  "When it’s service time, the live video appears above.",
+                  "Tap your language in the grid — English, Français, Português or Español.",
+                  "Turn up your volume, or use earphones for the clearest sound.",
+                ].map((step, i) => (
+                  <li key={i} className="flex gap-3">
+                    <span className="flex-none flex items-center justify-center w-5 h-5 rounded-full bg-white/10 text-white/80 text-[11px] font-semibold">
+                      {i + 1}
+                    </span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+              <p className="text-white/45 text-[13px] leading-relaxed">
+                <span className="text-white/70 font-medium">Still hearing English?</span>{" "}
+                Use the small language menu at the bottom of the video player and
+                pick your language there too.
+              </p>
+              <p className="text-white/45 text-[13px] leading-relaxed">
+                Translation is live, so the voice arrives a second or two after the
+                speaker — that’s normal. No app, account, or password needed.
+              </p>
+            </div>
+          </details>
+
           <p className="mt-6 text-center text-[12px] text-white/35">
             Real-time translation powered by{" "}
             <a
