@@ -68,15 +68,14 @@ export default function Hero() {
           }`}
         >
           <a
-            href="https://www.youtube.com/@TheresPowerHere"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/watch"
             className="inline-block group relative px-8 py-4 rounded-xl overflow-hidden"
           >
             <div className="absolute inset-0 glass-strong" />
             <div className="absolute inset-0 bg-gradient-to-r from-accent to-accent-light opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            <span className="relative text-[14px] font-semibold text-white tracking-wide">
-              WATCH ONLINE
+            <span className="relative text-[14px] font-semibold text-white tracking-wide inline-flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-accent live-pulse" />
+              WATCH LIVE — IN YOUR LANGUAGE
             </span>
           </a>
         </div>
