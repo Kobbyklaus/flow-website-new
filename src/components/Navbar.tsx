@@ -7,7 +7,7 @@ import { socialLinks } from "@/lib/socials";
 const navLinks = [
   { label: "ABOUT", href: "#about" },
   { label: "SCHEDULE", href: "#schedule" },
-  { label: "WATCH LIVE", href: "/watch" },
+  { label: "WATCH", href: "#connect" },
   { label: "GIVE", href: "#give" },
   { label: "CARE", href: "#pastoral-care" },
   { label: "MERCH", href: "#merch" },
