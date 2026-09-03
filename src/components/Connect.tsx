@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Connect() {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
-  const CHANNEL_URL = "https://www.youtube.com/@TheresPowerHere";
+  const CHANNEL_URL = "https://www.youtube.com/@YouWillBeGladYouPrayed";
 
   useEffect(() => {
     const el = ref.current;

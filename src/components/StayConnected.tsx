@@ -17,7 +17,7 @@ const platforms = [
     name: "YouTube",
     handle: "You'll be glad you prayed",
     description: "Watch live prayer meetings, worship, and the latest FLOW episodes.",
-    href: "https://www.youtube.com/@TheresPowerHere",
+    href: "https://www.youtube.com/@YouWillBeGladYouPrayed",
     color: "bg-red-500/10",
     textColor: "text-red-500",
     icon: (
