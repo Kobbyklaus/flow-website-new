@@ -68,7 +68,7 @@ export default function Hero() {
           }`}
         >
           <a
-            href="https://www.youtube.com/@TheresPowerHere"
+            href="https://www.youtube.com/@YouWillBeGladYouPrayed"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block group relative px-8 py-4 rounded-xl overflow-hidden"

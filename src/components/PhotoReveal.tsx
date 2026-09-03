@@ -62,7 +62,7 @@ export default function PhotoReveal() {
               Leading millions in prophetic prayer through FLOW — Flexible Lovers Of The Word. Join believers from around the world as heaven responds to the cry of His people.
             </p>
             <a
-              href="https://www.youtube.com/@TheresPowerHere"
+              href="https://www.youtube.com/@YouWillBeGladYouPrayed"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-8 group relative px-8 py-4 rounded-2xl overflow-hidden"

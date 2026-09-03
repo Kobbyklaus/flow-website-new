@@ -64,7 +64,7 @@ export default function ShareLink() {
               Share this link
             </p>
             <p className="text-white font-semibold select-all">
-              youtube.com/@TheresPowerHere
+              youtube.com/@YouWillBeGladYouPrayed
             </p>
           </div>
         </div>
