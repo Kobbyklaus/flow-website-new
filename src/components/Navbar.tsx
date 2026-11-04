@@ -5,15 +5,15 @@ import Image from "next/image";
 import { socialLinks } from "@/lib/socials";
 
 const navLinks = [
-  { label: "ABOUT", href: "#about" },
-  { label: "SCHEDULE", href: "#schedule" },
-  { label: "WATCH", href: "#connect" },
-  { label: "GIVE", href: "#give" },
-  { label: "CARE", href: "#pastoral-care" },
-  { label: "MERCH", href: "#merch" },
-  { label: "FLOWMATICS", href: "https://share.flowlive.org" },
-  { label: "BLOGS", href: "#blog" },
-  { label: "CONNECT", href: "#stay-connected" },
+  { label: "ABOUT", href: "/#about" },
+  { label: "SCHEDULE", href: "/#schedule" },
+  { label: "WATCH", href: "/#connect" },
+  { label: "GIVE", href: "/#give" },
+  { label: "CARE", href: "/#pastoral-care" },
+  { label: "MERCH", href: "/#merch" },
+  { label: "FLOWMATICS", href: "/flowmatics" },
+  { label: "BLOGS", href: "/#blog" },
+  { label: "CONNECT", href: "/#stay-connected" },
 ];
 
 export default function Navbar() {
@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <div className="w-full px-3 sm:px-6 lg:px-10 h-16 sm:h-20 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center shrink-0">
+          <a href="/" className="flex items-center shrink-0">
             <Image
               src="/images/flow/flow-logo-white.png"
               alt="FLOW"
