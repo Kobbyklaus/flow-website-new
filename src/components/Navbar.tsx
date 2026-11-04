@@ -11,6 +11,7 @@ const navLinks = [
   { label: "GIVE", href: "#give" },
   { label: "CARE", href: "#pastoral-care" },
   { label: "MERCH", href: "#merch" },
+  { label: "FLOWMATICS", href: "https://share.flowlive.org" },
   { label: "BLOGS", href: "#blog" },
   { label: "CONNECT", href: "#stay-connected" },
 ];
